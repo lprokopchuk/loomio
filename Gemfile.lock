@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/activeadmin/activeadmin.git
-  revision: 74769783b78046d4e5cd148beb957317a4f86ca1
+  revision: e9eca8f8b9ff4ddaed25a734702a4131ac31f124
   specs:
     activeadmin (1.0.0.pre)
       arbre (~> 1.0, >= 1.0.2)
@@ -471,6 +471,8 @@ GEM
     quiet_assets (1.1.0)
       railties (>= 3.1, < 5.0)
     rack (1.6.0)
+    rack-attack (4.2.0)
+      rack
     rack-canonical-host (0.1.0)
       addressable
       rack (~> 1.0)
@@ -720,6 +722,7 @@ DEPENDENCIES
   pry-rails
   puma
   quiet_assets
+  rack-attack (~> 4.2.0)
   rack-canonical-host
   rack_session_access
   rails (~> 4.2.0)
