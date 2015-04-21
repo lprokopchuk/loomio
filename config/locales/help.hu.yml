@@ -123,6 +123,9 @@ hu:
             anyone_html: "Ha a <strong>“Bárki”</strong> lehetőséget választod, a csoport szerepelni fog a nyilvánosan kereshető csoportok  <a href=\"http://loomio.org/explore\">Felfedező lapján</a>, és más kereső kereső motorok listájában.\nEz megkönnyíti az embereknek, hogy megtalálják a csoportodat anélkül, hogy neked személyes meghívást kelljen küldened számukra.\nEz hasznos lehet nagyszámú ember esetén, akik még nem ismerik egymást egy csoportban.\n"
         how_do_people_join:
           title: Hogy lehet csatlakozni?
+          body:
+            membership_requests_html: "A tagsági kérelem érvényesíthető vagy elvethető.\n(Megjegyzés:  a <strong>“Kérés alapján”</strong> opció nem választható, ha a <strong>“Csak tagok számára”</strong> lehetőséget választottad a <strong>“Ki találhatja meg ezt a csoportot?”</strong> részben.)\n"
+            invitation_only_html: "Ha a <strong>“csak meghívással”</strong> opciót választod, senki sem tud csatlakozni a csoporthoz személyes meghívó nélkül\nA meghívók elküldése a <a href=\"#inviting-members\">\"emberek meghívása”</a> oldalról történik.\n"
         who_can_see_discussions:
           title: Ki láthatja a vitákat?
           body:
@@ -136,6 +139,7 @@ hu:
             body_html: "Szeretnéd, hogy a csoportod tagjai <a href=\"#inviting-members\">meghívhassanak személyeket</a> csatlakozásra, és - a csoportod adatvédelmi beállításaitól függően - érvényesítsenek tagsági kérelmeket?\nHa ezt a lehetőséget választod a csoportod minden tagja meghívhat új embereket és érvényesíthet tagsági kérelmeket.\nHa ezek nincsenek kiválasztva, akkor csak a koordinátor lesz képes meghívni és érvényesíteni új tagokat.\n"
           create_subgroups:
             title: Alcsoport létrehozása
+            body_html: "Akarod, hogy a Loomio csoportod tagjai új <a href=\"#subgroups\">alcsoportot</a> hozhassanak létre?\nHa ez a lehetőség ki van választva, a csoportodban mindenki létre tud majd hozni alcsoportokat.\nHa nincs kiválasztva, akkor csak a csoport koordinátor hozhat létre alcsoportokat.\n"
           start_discussions:
             title: Vitákat kezdeményez
             body_html: "Szeretnéd hogy a csoportban bárki képes legyen <a href=\"#starting-discussions\">új vitát kezdeményezni</a>?\nHa ez a lehetőség ki van választva, a csoportban mindenki indíthat vitát.\nHa nincs kiválasztva, akkor csak a csoport koordinátor tud megbeszélést kezdeni.\n"
@@ -150,6 +154,7 @@ hu:
             title: Szavaz a javaslatokon
         what_next:
           title: Mi következik?
+          body_html: "A csoport beállítás űrlap lezárása után át leszel irányítva a csoport lapra.\nA csoportod lapjáról meghívhatsz embereket, hogy csatlakozzanak a csoportodhoz.\nKattints  <a href=\"#inviting-members\">ide</a> hogy megtudj többet a meghívásról.\n"
     coordination:
       title: Csoportod koordinálása
       adding_cover_photo:
@@ -161,23 +166,31 @@ hu:
           title: Tagsági kérelmek elfogadása/elvetése
           body:
             approval_process_html: "Ha a <a href=\"#group-privacy\">csoport adatvédelmi beállítások</a> az embereknek a csoporthoz csatlakozást <strong>“Kérelemmel”</strong> engedik meg, akkor egy koordinátornak minden tagsági kérelmet érvényesítenie kell.\nCsoport koordinátorként emailt fogsz kapni minden esetben, ha érvényesítendő kérelem van.\nAz értesítő email hivatkozására kattintva át leszel irányítva a  <strong>\"Tagsági kérelmek\"</strong> oldalra, ahol érvényesítheted vagy elutasíthatod a kérést.\n"
+            pending_requests_html: "Ha vannak függőben levő tagsági kérelmek, az is látható lesz a csoportod lapján a <strong>\"Tagsági kérelmek\"</strong> panelen.\nA hivatkozásra kattintva át leszel irányitva a <strong>\"Tagsági kérelmek\"</strong> oldalra.\n"
         email_group_members:
           title: email küldés csoport tagoknak
+          body_html: "Ha emailt szeretnél küldeni csoportod minden tagjának, azt megteheted a <strong>“Tagok”</strong> oldalon.\nAz oldal jobb felső részén található <strong>\"Email a csoporttagoknak\"</strong> gombra kattintva írhatod meg és küldheted el a levelet acsoport minden tagjának.\n"
         group_coordinators:
           title: Koordinátorok hozzáadása/törlése
         group_members:
           title: Csoporttagok hozzáadása/törlése
+          body_html: "Csak a koordinátorok tudnak csoport tagságot megvonni.\nA <strong>“Tagok”</strong> oldalon, minden csoporttag mellett lesz egy <strong>“Visszavonás”</strong> gomb.\nA gombra kattintás a vonatkozó tagot törli a csopotodból.\n"
       deactivating_groups:
         title: Csoport deaktiválása/archiválása
       coordinator_tips:
         title: Tippek a csoportodban való részvételre
         customise_invitation:
           title_html: Meghívó üzeneted testreszabása
+        engaging_proposal:
+          title: "Tegyél egy vonzó első javaslatot:"
         encourage_mentioning:
           title_html: "Ösztönözz <a href=\"#mentioning\">@megemlítve</a>:"
           body: "Egy másik egyszerű mód az emberek ösztönzésére, hogy részt vegyenek egy vitában, hosználjuk a @megemlítés funkciót, megnevezve a kívánt személyt; küldve nekik ezzel egy emailt arról, hogy megemlítették őket egy hozzászólásban. "
     inviting_members:
       title: Új tagok meghívása
+      body:
+        invitation_instructions_html: "Új emberek meghívásához a csoportodba, írd be email címeiket, vesszővel elválasztva.\nVálaszthatod a Loomio alapértelmezett üzenetét, vagy megfogalmazhatsz egy alkalmi üzenetet\n"
+        invitation_link: "Amikor befejezed a meghívás űrlap kitöltését, egy-egy email megy majd minden általad megadott email címre a szövegeddel és egy egyedi meghívási hivatkozással:"
       importing_contacts:
         title: Kapcsolatok importálása
       pending_invitations:
@@ -269,6 +282,7 @@ hu:
           normal_title: Normál
           normal_description: ",- ez csak fontos aktivitás: új téma vagy javaslat illetve javaslat eredmény esetén lesz emailben elküldve neked. "
           quiet_title: Csendes
+          quiet_description: "- ez minden emailt kikapcsol. Az új csoport eseményeket a Műszerfalon fogod látni."
           mute_title: Néma
           upon_joining_group_html: "Amikor új csoporthoz csatlakozol, hangerő beállításod erre a konkrét csoportra vonatkozóan <strong>Normál</strong> lesz.\nEz azt jelenti, hogy emailt fogsz kapni, amikor új vita indul, amikor egy döntési javaslat születik vagy amikor egy javaslat eredményét közzéteszik.\n"
           reply_via_email_html: "Bármelyik hozzászólásra válaszolhatsz, amelyet emailben kaptál meg, és a válaszod a megfelelő Loomios vitában fog megjelenni.\nAlternatívaként választhatod, hogy a hozzászólást a Loomion, a vita részeként tekinted meg a <strong>“megnézem a Loomion”</strong> hivatkozásra kattintva az email láblécében.\n"
@@ -314,8 +328,42 @@ hu:
       github_issues_html: Loomio esemény követő a Githubon
     faq:
       title: GYIK
+      approved_membership_request:
+        title: "Érvényesítettem azoknak az embereknek a tagsági kéremét, akik a csoportomhoz akartak csatlakozni, de nem jelentek meg  mint tagok, mi történik?"
+        body: "Ha olyan emberek kértek tagságot a csoportodhoz, akiknek nincs Loomio fiókjuk, akkor előbb létre kell hozniuk egy fiókot, mielőtt a csoportod tagjaivá válnak.\nAzután, hogy érvényesítetted az ő tagsági kérelmüket, egy visszaigazoló emailt fognak kapni, benne a hivatkozás, amely kéri őket a Loomio fiók létrehozatalára, benne egy hivatkozással, a levél kéri őket, hogy hozzák létre Loomio fiókjukat.\nAmikor a fiók létrejön, ők megjelennek csoportod tagjaiként.\n"
+      forgotten_password:
+        title: "Elfelejtettem a jelszavamat, mit csináljak?"
+        body_html: "Ha elfelejtette a jelszavát kattintson az  <strong>“Elfelejtette jelszavát?”</strong> hivatkozásra a <a href=\"http://www.loomio.org/users/sign_in\">Bejelentkezés oldalon</a>.\nMeg kell adnia a Loomio fiókjához tartozó email címet és a jelszó helyreállítási utasításokat elküldjük arra az email címre.\n"
       loomio_account:
         title: Szükségem van Loomio fiókra egy vitában való részvételhez?
         body: "Igen. Habár különféle csoport titkossági szintek léteznek, mindenkinek, aki részt kíván venni egy Loomio csoportban, szüksége van egy Loomio fiókra."
+      cost:
+        title: Kell fizetni a Loomio használatáért?
+        body_html: "<p>Egy olyan árazási modellt fejlesztünk, amely összhangban van a társadalmi küldetésünkkel: <strong>mindenki számára egyszerűvé tenni, hogy bárhonnan részt vehessen a rá ható döntésekben</strong>.</p>\n<p>Ha  <strong>cégként, formális szervezetként vagy munkahelyen</strong> használja a Loomiot, a havi előfizetési díj 2 USD lesz tagonként, egy <strong>30-napos ingyenes próbaidőszak</strong> után.</p>\n<p>Több mint 100 tag van? Nagy szervezeteknek szóló ajánlatért <a href=\"mailto:contact@loomio.org\">keressen minket</a>.</p>\n<p>A pénz  nem lehet akadálya, hogy az emberek nagy dolgokra használják a Loomiot saját <strong>közösségükben</strong>.\nHa a csoportjának nincs fedezete a szoftverre, nem kell előfizetést vásárolnia. Mindazonáltal alkalmasint felkérhetjük csoportjának tagjait adakozásra.</p>\n"
+      single_sign_on:
+        title: "Beléphetek Google-lal, Facebookkal vagy Twitterrel?"
+        body_html: "Igen, nézd meg az \"Egyéni bejelentkezés\" részt az <a href=\"#getting-started\">Első lépések</a> fejezetben."
       loomio_instance:
         body_html: "Van egy telepítési útmutató <a href=\"https://github.com/loomio/loomio/wiki\">Github wiki-nken</a> és egy <a href=\"https://www.loomio.org/g/C7I2YAPN/loomio-community-installing-loomio\">Loomio Közösség alcsoport</a> a saját telepítések támogatására és segítésére.\nHa azt fontolgatod, hogy a Loomio saját verzióját telepíted, erősen ajánljuk, hogy csatlakozz ehhez a csoporthoz.\n"
+      feature_idea:
+        title: "Mit tegyek, ha új funkcióra van javaslatom?"
+      max_group_size:
+        title: Mekkora maximális taglétszámom lehet egy csoportban?
+        body_html: "Jelenleg a maximális csoport méret 300 tag. Ha valamiért szüksége volna növelni ezt, lépjen kapcsolatba velünk - <a href=mailto:contact@loomio.org>contact@loomio.org</a>. "
+      feedback_link: "Kihagytunk valamit? Várjuk visszajelzését >"
+    back_to_top: ^ Vissza a tetejére
+    feedback_discussion: "Gondolja, hogy ez a magyarázat világosabb is lehetne? Várjuk visszajelzését >"
+  help:
+    markdown:
+      intro:
+        title: "Mi az a markdown?\n=================\n"
+        body: "A Mardown egy módja a sima szöveg írásnak (balra),\nígy azt át lehet alakítani formázott szöveggé (jobbra).\n\nEz az oldal mardown-ban íródott, hogy bemutassa miként működik.\n"
+      paragraphs:
+        title: "Bekezdések\n--------\n"
+      emphasis:
+        title: "Kiemelés\n--------\n"
+      lists:
+        title: "Felsorolás\n-----\n"
+        body: "Ime, így készíthetsz felsorolást:\n\n* hagyj egy üres sort a felsorolás előtt\n* használd a csillag (*) karaktert\n* hagyj egy szóközt a csillag után\n"
+      links:
+        title: "Hivatkozások és képek\n----------------\n"

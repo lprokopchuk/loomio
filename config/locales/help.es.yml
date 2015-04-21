@@ -1,7 +1,7 @@
 es:
   new_help:
     how_to:
-      title: "Como comienzo? "
+      title: "¿Cómo comienzo? "
       start_group_link: Empieza un grupo
       start_group_description: Para colaborar con gente en Loomio
       invite_people_link: Invitar personas
@@ -144,6 +144,8 @@ es:
           title: ¿Qué pueden hacer los miembros?
           invite_and_approve_new_members:
             title: Invitar y aprobar nuevos miembros
+          create_subgroups:
+            title: Crear sub-grupos
           start_discussions:
             title: Empezar discusiones
           edit_discussion_context:
@@ -154,14 +156,28 @@ es:
             title: Hacer propuestas
           vote_on_proposals:
             title: Votar en propuestas
+        what_next:
+          title: ¿Y después?
     coordination:
       title: Coordinando tu grupo
       adding_cover_photo:
         title: Agregando una foto de portada
       manage_membership:
         title: Gestionando membresias
+        membership_requests:
+          title: Aceptando/Ignorando solicitudes de membresía
+        email_group_members:
+          title: Enviando correos electrónicos a los miembros del grupo
+        group_coordinators:
+          title: Añadiendo/Eliminando coordinadores
+        group_members:
+          title: Añadiendo/Eliminando miembros del grupo
       deactivating_groups:
         title: Desactivar/archivar un grupo
+      coordinator_tips:
+        title: Consejos para comprometer a tu grupo
+        customise_invitation:
+          title_html: Personaliza tu mensaje de invitación
     inviting_members:
       title: Invitando nuevos miembros
       importing_contacts:
@@ -184,6 +200,8 @@ es:
         title: "Eliminar una discusión "
     comments:
       title: "Comentarios "
+      posting_comments:
+        title: Publicando un comentario
       attaching_files:
         title: "Adjuntar archivos "
       mentioning_group_members:
@@ -254,11 +272,44 @@ es:
     contributing:
       title: Contribuir con Loomio
       body:
+        open_source:
+          title_html: Desarrollo de código abierto
         translation:
           title_html: "Traducción "
         loomio_community:
           title_html: La Comunidad de Loomio
     loomio_community:
       title: La Comunidad de Loomio
+    loomio_development:
+      title: Manteniéndote al día con el Desarrollo de Loomio
+      intro: Hay distintas maneras de mantenerte al día de los progresos de Loomio
+      github_repo_html: El repositorio principal del desarrollo de Loomio
+      github_issues_html: El seguimiento de incidencias de Loomio en Github
+      angular_html: Loomio 1.0-beta en acción
+      twitter_html: Loomio en Twitter
     faq:
       title: "Preguntas frecuentes "
+      confirmation_email:
+        title: ¿Dónde está mi correo de confirmación?
+      approved_membership_request:
+        title: "He aprobado las solicitudes de pertenencia de personas que querían entrar en mi grupo, pero no se han mostrado ¿Qué está pasando?"
+      forgotten_password:
+        title: Olvidé mi contraseña. ¿Qué hago?
+      loomio_account:
+        title: ¿Necesito una cuenta Loomio para participar en las discusiones?
+      cost:
+        title: ¿Cuesta hacer uso de Loomio?
+      single_sign_on:
+        title: "¿Puedo identificarme con Google, Facebook o Twitter?"
+      loomio_instance:
+        title: ¿Cómo puedo configurar mi propia instancia de Loomio?
+      feature_idea:
+        title: ¿Y si quiero proponer una característica?
+      development_pipeline:
+        title: ¿Qué es lo próximo en la pila de desarrollo de Loomio?
+      max_group_size:
+        title: ¿Cuál es el número máximo de miembros que puedo tener en un grupo?
+        body_html: "El tamaño máximo de un grupo es 300 miembros. Si por alguna razón necesitas aumentarlo, contáctanos - <a href=mailto:contact@loomio.org>contact@loomio.org</a>."
+      feedback_link: "¿Echaste algo en falta? Cuéntanoslo >"
+    back_to_top: ^ Arriba
+    feedback_discussion: "¿Esta explicación podría ser más clara? Ayúdanos >"

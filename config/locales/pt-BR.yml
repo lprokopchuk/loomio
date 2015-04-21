@@ -17,13 +17,6 @@ pt-BR:
     no_change_description: Deixe o nível de volume dos meus grupos como está.
   explore:
     header: Conheça grupos públicos
-  try_it:
-    header: Experimente Loomio
-    start_a_group: Iniciar um grupo para tomar decisões em sua própria comunidade.
-    join_the_community: Junte-se ao grupo Loomio Comunidade
-    loomio_community_info: Este é o lugar onde discutimos e tomamos decisões sobre o Loomio.
-    explore_groups: Conheça outros grupos no Loomio
-    explore_groups_info: "Confira todos os íncríveis grupos no Loomio e junte-se a eles!"
   activerecord:
     errors:
       messages:
@@ -136,6 +129,7 @@ pt-BR:
     added_to_group: "Você foi adicionado a %{which_group}."
     close_date_changed: Data de encerramento alterada com sucesso.
     discussion_created: Discussão criada com sucesso.
+    discussion_updated: Discussão atualizada com sucesso.
     discussion_deleted: Discussão apagada com sucesso.
     discussion_moved: "Discussão movida para %{group_name} com sucesso"
     emails_sending: Enviando e-mails.
@@ -279,6 +273,25 @@ pt-BR:
       memberships: Você deixará de ser listado como membro de qualquer um dos grupos você pertence.
       group_contributions: "Comentários, propostas e discussões feitas por você em grupos vão ficar, mas vamos retirar o seu nome destes."
       emails: Vamos parar de enviar-lhe e-mails relacionados ao Loomio.
+  start_group_form:
+    header: Iniciar um novo grupo
+    form_error: Algumas informações estão ausentes ou incorretas.
+    name: Seu nome
+    name_error: Nome é necessário
+    email: Seu e-mail
+    email_error: Não é um endereço de e-mail válido
+    group_name: Nome do grupo
+    group_name_error: Nome do grupo é necessário
+    payment: Pagamento
+    payment_error: "Por favor, selecione uma opção"
+    subscription_html: "<strong>Assinatura</strong> - 30 dias de teste gratuito. Se o seu grupo ama o Loomio, você pode usá-lo por apenas US$ 1 por membro por mês."
+    donation_html: "<strong>Doação</strong> - se você não pode pagar por uma assinatura regular, vamos, ocasionalmente, pedir aos membros do seu grupo por uma doação voluntária."
+    terms_html: "Ao iniciar um grupo, você concorda com os <a href='%{link}' target='_blank'>termos de serviço</a> do Loomio."
+    success:
+      header: "Você está quase lá! Verifique seu e-mail."
+      email_delivered: "Enviamos um e-mail para %{email}. Por favor, siga o link para configurar o seu novo grupo."
+      email_not_arrived: O e-mail não chegou?
+      please_hold: "Por favor, aguarde até 5 minutos para o e-mail chegar e não se esqueça de verificar sua pasta de spam."
   group_form:
     name: Nome do grupo
     description: Descrição
@@ -636,7 +649,7 @@ pt-BR:
     positions_disagree_description: "<span>Desacordo</span> significa que você acredita que deve haver uma alternativa melhor, mas que está disposta/o a aceitar a decisão da maioria."
     positions_block_description: "<span>Bloqueio</span> significa que você tem sérias objeções à proposta e ficará muito insatisfeita/o se ela for aprovada."
     start_discussion: Iniciar uma discussão envolvente
-    start_discussion_html: "<p>Quando você iniciar uma discussão, certifique-se de que o título comunica o tópico\nde maneira sucinta. Use o Painel de Contexto para fornecer toda informação necessária\npara que o grupo tenha uma discussão informada e produtiva.</p>\n<p>Durante a discussão, o Painel de Contexto pode ser atualizado de acordo com a chegada\nde novas informações. Além de esclarecer o tópico, você pode usar esse espaço para \ncompartilhar recursos, resumir a discussão enquanto ela avança ou explicar os\nprotocolos de tomada de decisão que seu grupo está usando.</p>\n\n"
+    start_discussion_html: "<p>Quando você iniciar uma discussão, certifique-se de que o título comunica o tópico\nde maneira sucinta. Use o Painel de Contexto para fornecer toda informação necessária\npara que o grupo tenha uma discussão produtiva e embasada.</p>\n<p>Durante a discussão, o Painel de Contexto pode ser atualizado de acordo com a\nchegada de novas informações. Além de esclarecer o tópico, você pode usar esse espaço\npara compartilhar recursos, resumir a discussão enquanto ela avança ou explicar os\nprotocolos de tomada de decisão que seu grupo está usando.</p>\n"
     start_proposal: Escrevendo uma proposição clara
     start_proposal_html: "<p> Se escolher um título claro e sucinto, as pessoas saberão imediatamente com o que exatamente \nirão concordar ou discordar.</p>\n<p>Não será o fim do mundo se uma proposta não obtiver concordândia clara imediatamente.\nSe o grupo não amar a primeira proposta, qualquer membro pode iniciar uma nova proposta para\nlidar com os problemas levantados e fazer com que o processo siga adiante.</p>\n<p>Através desse processo dinâmico, a sabedoria coletiva do grupo pode gerar ideias melhores\ndo que as que um membro sozinho poderia ter.</p>\n<p>O prazo em uma proposição pode ser estendido a qualquer momento, caso pareça que a decisão\nprecise disso. Todos membros receberão uma notificação por e-mail 24 horas antes de uma proposição fechar.</p>\n\n"
     video_id: "52025402"
@@ -651,12 +664,12 @@ pt-BR:
     proposal: Dicas para escrever uma proposição clara
     vote: Você pode mudar sua posição a qualquer momento
   pricing_page:
-    intro: "Grupos com recursos pagam uma taxa mensal para usar a ferramenta.\nGrupos que não possuem recursos para pagar essa taxa usam o modelo \nPague o Que Puder: seus membros são convidados a fazer contribuições voluntárias. Sua contribuição significa que podemos manter o Loomio independente, livre de anúncios e comandado pela nossa comunidade.\n"
-    organisations: Organizações
-    organisations_examples: "p.ex. negócios, agências de governo, organizações comunitárias"
-    informal_groups: Grupos informais
-    informal_groups_desc: Membros do seu grupo serão solicitados que paguem o que puderem
-    informal_groups_examples: "p.ex. famílias, movimentos sociais, coletivos"
+    header: Preço
+    in_development_html: "Desenvolvemos um modelo de precificação que está alinhado com a nossa missão social: <strong>tornando fácil para qualquer um, em qualquer lugar, participar nas decisões que lhes dizem respeito</strong>."
+    loomio_for_organisations: Loomio para organizações
+    organisations_deal_html: "Se você estiver usando Loomio em uma empresa, organização formal ou local de trabalho, vai ser cobrada uma assinatura mensal de US$ 1 por pessoa depois de um <strong>teste gratuito de 30 dias</strong>."
+    loomio_for_communities: Loomio para comunidades
+    communities_deal: "Dinheiro nunca será uma barreira para as pessoas que utilizam Loomio fazerem grandes coisas em suas comunidades. Se o seu grupo não tem orçamento para pagar por software, você não precisa pagar uma assinatura. No entanto, ocasionalmente, vamos pedir aos membros do seu grupo por uma doação voluntária."
   contribution:
     any_amount: ou uma contribuição única de
     currency_desc: Os valores estão em Dólares Americanos
@@ -812,7 +825,7 @@ pt-BR:
     "yes": Sim
     "no": Não
     required:
-      text: obrigatório
+      text: necessário
       mark: "*"
     error_notification:
       default_message: "Por favor revise os problemas abaixo:"
@@ -833,20 +846,12 @@ pt-BR:
         password: Senha
         password_confirmation: Confirme sua senha
         language_preference: Idioma
-      group_request:
-        admin_name: Qual o seu nome?
-        admin_email: Qual é o seu endereço de e-mail?
-        name: Qual é o nome do seu grupo?
-        description: "Se você tiver um tempo, diga-nos sobre o seu grupo"
-        is_commercial: Onde você planeja utilizar Loomio?
     placeholders:
       membership_request:
         introduction: "Escreva um pouco sobre você e porque gostaria de entrar em %{group_name}."
       motion:
         name: Qual medida você está propondo?
         description: Forneça informações suficientes para que todos saibam exatamente o que significa concordar ou discordar.
-      group_request:
-        description: Gostaríamos muito de ouvir sobre o seu grupo e por que você quer usar Loomio.
   helpers:
     submit:
       discussion:
@@ -951,10 +956,6 @@ pt-BR:
       specify_outcome: Sua proposta foi encerrada. Especifique um resultado para que todos saibam.
       outcome_created: "%{who} definiu um resultado da proposta:"
       you_agreed: "Você %{past_tense_position}"
-    verification:
-      header: "Você está quase terminando!"
-      intro: "Por favor, clique neste link de verificação para finalizar sua solicitação:"
-      ignore: "Se você não pediu para entrar no Loomio, por favor ignore esta mensagem."
   meta_tags:
     default_title: "Loomio | Processo Decisório Colaborativo"
     default_description: Loomio é uma ferramenta on-line fácil de usar para tomada de decisão em grupo. Ele permite que grupos dispersos tomem decisões rapidamente e façam açõe construtivas.
@@ -1017,7 +1018,7 @@ pt-BR:
   start_a_group: Iniciar um grupo
   starting: Começar
   subject: Assunto
-  terms_of_service_html: "Clicando em %{button_text}, você concorda com os <a href='%{link_path}' target='_blank'>Termos de Serviço</a> do Loomio"
+  tos_html: "Ao fazer o login, você concorda com os <a href='%{link_path}' target='_blank'>Termos de serviço</a> do Loomio"
   thanks: "Obrigado!"
   unlike: Curtir (desfazer)
   time_until_close: "%{quantity_of_time} até encerrar"
@@ -1038,16 +1039,19 @@ pt-BR:
   sign_up_with_twitter: Registrar com Twitter
   common:
     profile: Perfil
+    welcome_back: "Bem vindo de volta!"
     email_settings: Configurações de e-mail
     markdown_help_tooltip: Aprenda os conceitos básicos de formatação do seu texto com Markdown
     settings: Configurações
     dashboard: Painel
     unread: Não lida
+    find_out_more: Descubra mais
     filter: "Filtro:"
     following: Seguindo
     not_following: Não seguindo
     back_to_discussion: Voltar para a discussão
     edited: Editado
+    get_started: Começar
     groups: Grupos
     select_error: "Por favor, selecione uma opção"
     today: Hoje
